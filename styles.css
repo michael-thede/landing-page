@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
