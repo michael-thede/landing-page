@@ -29,3 +29,40 @@ a{
     align-items: center;
     font-size: 18px;
 }
+
+.awesome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;;
+}
+
+.text{
+    width: 400px;
+}
+
+.text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+button{
+    margin: 8px 0;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 16px;
+}
+
+img{
+    margin: 24px;
+}
