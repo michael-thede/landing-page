@@ -85,6 +85,25 @@ img{
 
 .pictures{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.pictures p{
+    width: 250px;
+}
+
+.one img, .two img, .three img, .four img{
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    
+}
+
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
