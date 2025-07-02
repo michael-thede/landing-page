@@ -6,6 +6,7 @@ a{
 body{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
@@ -31,8 +32,11 @@ img{
 
 .header{
     display: flex;
-    justify-content: space-around;
     background: #1F2937;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+    padding-right: 20px;
 }
 
 .header h3{
@@ -53,7 +57,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1F2937;;
+    background: #1F2937;
 }
 
 .text{
@@ -87,6 +91,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 }
 
@@ -104,6 +109,35 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote{
+    background: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    align-items: flex-end;
+}
+
+#words{
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: -10px;
+}
+
+#speaker{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
