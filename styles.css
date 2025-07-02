@@ -170,4 +170,12 @@ img{
     border: 2px solid white;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
 
